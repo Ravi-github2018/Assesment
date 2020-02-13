@@ -1,5 +1,6 @@
-# Rabobank Customer Statement Processor
-Rabobank receives monthly deliveries of customer statement records. This information is delivered in two formats, CSV and XML. These records need to be validated.
+# Rabobank Customer Statement Validator
+Rabobank receives monthly deliveries of customer statement records. 
+This information is delivered in two formats, CSV and XML. These records need to be validated.
 
 ## Input
 The format of the file is a simplified format of the MT940 format. The format is as follows:
@@ -34,7 +35,7 @@ http://localhost:8080/rabobank/processStatment
 7.  Finally invalid records will be getting as webservice response with status code. 
 
 ### Screen Shots
-
+Attached
 
 
 ### Error scenario: 
